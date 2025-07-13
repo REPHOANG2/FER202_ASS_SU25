@@ -30,7 +30,8 @@
         "ORD794",
         "ORD963",
         "ORD546",
-        "ORD424"
+        "ORD424",
+        "ORD147"
       ],
       "address": {
         "street": "123 Main St",
@@ -1720,6 +1721,31 @@
           "price": 8.8
         }
       ]
+    },
+    {
+      "id": "9d03",
+      "order_id": "ORD147",
+      "user_id": "1",
+      "order_date": "2025-07-12T13:29:27.659Z",
+      "total_amount": 27,
+      "original_amount": 27,
+      "discount_amount": 0,
+      "coupon_code": null,
+      "status": "pending",
+      "payment_method": "cod",
+      "shipping_fee": 550,
+      "items": [
+        {
+          "product_name": "Floral Summer Dress",
+          "quantity": 2,
+          "price": 9.5
+        },
+        {
+          "product_name": "Graphic T-Shirt",
+          "quantity": 2,
+          "price": 4
+        }
+      ]
     }
   ],
   "categories": [
@@ -1761,402 +1787,402 @@
     }
   ],
   "products": [
-      {
-        "id": "1",
-        "title": "Slim Fit Denim Jacket",
-        "description": "Classic blue denim jacket for men, slim fit design",
-        "price": 1200,
-        "categoryId": 1,
-        "url": "/images/products/cate1/denim_jacket.jpg",
-        "status": "available",
-        "quantity": 20,
-        "isAuction": false
-      },
-      {
-        "id": "2",
-        "title": "Formal Leather Shoes",
-        "description": "Elegant black leather shoes perfect for business attire",
-        "price": 2000,
-        "categoryId": 1,
-        "url": "/images/products/cate1/formal_leather_shoes.jpg",
-        "status": "available",
-        "quantity": 15,
-        "isAuction": false
-      },
-      {
-        "id": "3",
-        "title": "Graphic T-Shirt",
-        "description": "Cotton T-shirt with bold graphic print",
-        "price": 400,
-        "categoryId": 1,
-        "url": "/images/products/cate1/graphic_tshirt.jpg",
-        "status": "available",
-        "quantity": 50,
-        "isAuction": true
-      },
-      {
-        "id": "4",
-        "title": "Men's Casual Blazer",
-        "description": "Smart casual blazer for versatile use",
-        "price": 1800,
-        "categoryId": 1,
-        "url": "/images/products/cate1/mens_casual_blazer.jpg",
-        "status": "available",
-        "quantity": 10,
-        "isAuction": true
-      },
-      {
-        "id": "5",
-        "title": "Chino Pants",
-        "description": "Comfortable slim-fit chinos for men",
-        "price": 950,
-        "categoryId": 1,
-        "url": "/images/products/cate1/chino_pants.jpg",
-        "status": "available",
-        "quantity": 25,
-        "isAuction": false
-      },
-      {
-        "id": "6",
-        "title": "Wool Scarf",
-        "description": "Soft wool scarf in neutral tones",
-        "price": 300,
-        "categoryId": 1,
-        "url": "/images/products/cate1/wool_scarf.jpg",
-        "status": "available",
-        "quantity": 40,
-        "isAuction": false
-      },
-      {
-        "id": "7",
-        "title": "Floral Summer Dress",
-        "description": "Lightweight dress perfect for summer days",
-        "price": 950,
-        "categoryId": 2,
-        "url": "https://picsum.photos/id/107",
-        "status": "available",
-        "quantity": 30,
-        "isAuction": false
-      },
-      {
-        "id": "8",
-        "title": "Leather Handbag",
-        "description": "Stylish handbag made from genuine leather",
-        "price": 2700,
-        "categoryId": 2,
-        "url": "https://picsum.photos/id/108",
-        "status": "available",
-        "quantity": 12,
-        "isAuction": true
-      },
-      {
-        "id": "9",
-        "title": "High Waist Jeans",
-        "description": "Comfortable and stylish high-waist jeans",
-        "price": 1300,
-        "categoryId": 2,
-        "url": "https://picsum.photos/id/109",
-        "status": "available",
-        "quantity": 20,
-        "isAuction": false
-      },
-      {
-        "id": "10",
-        "title": "Evening Gown",
-        "description": "Elegant long evening gown with sequin details",
-        "price": 3800,
-        "categoryId": 2,
-        "url": "https://picsum.photos/id/110",
-        "status": "available",
-        "quantity": 5,
-        "isAuction": true
-      },
-      {
-        "id": "11",
-        "title": "Silk Blouse",
-        "description": "Premium silk blouse in pastel colors",
-        "price": 1500,
-        "categoryId": 2,
-        "url": "https://picsum.photos/id/111",
-        "status": "available",
-        "quantity": 18,
-        "isAuction": false
-      },
-      {
-        "id": "12",
-        "title": "Women's Knit Sweater",
-        "description": "Warm and cozy knit sweater for winter",
-        "price": 1000,
-        "categoryId": 2,
-        "url": "https://picsum.photos/id/112",
-        "status": "available",
-        "quantity": 25,
-        "isAuction": false
-      },
-      {
-        "id": "13",
-        "title": "Baby Romper",
-        "description": "Soft cotton romper for babies with cute prints",
-        "price": 350,
-        "categoryId": 3,
-        "url": "https://picsum.photos/id/113",
-        "status": "available",
-        "quantity": 40,
-        "isAuction": false
-      },
-      {
-        "id": "14",
-        "title": "Children's Hoodie",
-        "description": "Colorful hoodie for kids with cartoon characters",
-        "price": 700,
-        "categoryId": 3,
-        "url": "https://picsum.photos/id/114",
-        "status": "available",
-        "quantity": 30,
-        "isAuction": false
-      },
-      {
-        "id": "15",
-        "title": "Girl's Party Dress",
-        "description": "Cute party dress with lace and ribbons",
-        "price": 1100,
-        "categoryId": 3,
-        "url": "https://picsum.photos/id/115",
-        "status": "available",
-        "quantity": 15,
-        "isAuction": true
-      },
-      {
-        "id": "16",
-        "title": "Boy's Cargo Shorts",
-        "description": "Durable and comfortable cargo shorts",
-        "price": 600,
-        "categoryId": 3,
-        "url": "https://picsum.photos/id/116",
-        "status": "available",
-        "quantity": 22,
-        "isAuction": false
-      },
-      {
-        "id": "17",
-        "title": "Kids Raincoat",
-        "description": "Waterproof raincoat in bright colors",
-        "price": 950,
-        "categoryId": 3,
-        "url": "https://picsum.photos/id/117",
-        "status": "available",
-        "quantity": 20,
-        "isAuction": false
-      },
-      {
-        "id": "18",
-        "title": "Children's Pajamas Set",
-        "description": "Comfortable sleepwear set for kids",
-        "price": 500,
-        "categoryId": 3,
-        "url": "https://picsum.photos/id/118",
-        "status": "available",
-        "quantity": 35,
-        "isAuction": false
-      },
-      {
-        "id": "19",
-        "title": "Brown Leather Bag",
-        "description": "Handcrafted genuine leather bag with premium stitching and multiple compartments",
-        "price": 2500,
-        "categoryId": 4,
-        "url": "https://picsum.photos/id/7",
-        "status": "available",
-        "quantity": 30,
-        "isAuction": true
-      },
-      {
-        "id": "20",
-        "title": "Canvas Backpack",
-        "description": "Casual canvas backpack with laptop compartment",
-        "price": 1400,
-        "categoryId": 4,
-        "url": "https://picsum.photos/id/119",
-        "status": "available",
-        "quantity": 25,
-        "isAuction": false
-      },
-      {
-        "id": "21",
-        "title": "Slim Wallet",
-        "description": "Compact wallet with RFID protection",
-        "price": 600,
-        "categoryId": 4,
-        "url": "https://picsum.photos/id/120",
-        "status": "available",
-        "quantity": 40,
-        "isAuction": false
-      },
-      {
-        "id": "22",
-        "title": "Belt with Silver Buckle",
-        "description": "Stylish leather belt for everyday use",
-        "price": 500,
-        "categoryId": 4,
-        "url": "https://picsum.photos/id/121",
-        "status": "available",
-        "quantity": 30,
-        "isAuction": false
-      },
-      {
-        "id": "23",
-        "title": "Travel Duffel Bag",
-        "description": "Spacious duffel bag for weekend trips",
-        "price": 2100,
-        "categoryId": 4,
-        "url": "https://picsum.photos/id/122",
-        "status": "available",
-        "quantity": 10,
-        "isAuction": true
-      },
-      {
-        "id": "24",
-        "title": "Mini Crossbody Bag",
-        "description": "Compact crossbody bag for daily essentials",
-        "price": 850,
-        "categoryId": 4,
-        "url": "https://picsum.photos/id/123",
-        "status": "available",
-        "quantity": 20,
-        "isAuction": false
-      },
-      {
-        "id": "25",
-        "title": "Running Shoes",
-        "description": "Lightweight and breathable running shoes",
-        "price": 1800,
-        "categoryId": 5,
-        "url": "https://picsum.photos/id/124",
-        "status": "available",
-        "quantity": 35,
-        "isAuction": false
-      },
-      {
-        "id": "26",
-        "title": "Leather Boots",
-        "description": "Durable leather boots for rugged use",
-        "price": 2700,
-        "categoryId": 5,
-        "url": "https://picsum.photos/id/125",
-        "status": "available",
-        "quantity": 12,
-        "isAuction": true
-      },
-      {
-        "id": "27",
-        "title": "Flip Flops",
-        "description": "Simple and comfortable beach flip flops",
-        "price": 300,
-        "categoryId": 5,
-        "url": "https://picsum.photos/id/126",
-        "status": "available",
-        "quantity": 50,
-        "isAuction": false
-      },
-      {
-        "id": "28",
-        "title": "Women's Heels",
-        "description": "Elegant high heels for formal events",
-        "price": 1600,
-        "categoryId": 5,
-        "url": "https://picsum.photos/id/127",
-        "status": "available",
-        "quantity": 15,
-        "isAuction": true
-      },
-      {
-        "id": "29",
-        "title": "Children's Sneakers",
-        "description": "Colorful sneakers for kids",
-        "price": 900,
-        "categoryId": 5,
-        "url": "https://picsum.photos/id/128",
-        "status": "available",
-        "quantity": 25,
-        "isAuction": false
-      },
-      {
-        "id": "30",
-        "title": "Slip-on Loafers",
-        "description": "Comfortable slip-on shoes for everyday wear",
-        "price": 1200,
-        "categoryId": 5,
-        "url": "https://picsum.photos/id/129",
-        "status": "available",
-        "quantity": 20,
-        "isAuction": false
-      },
-      {
-        "id": "31",
-        "title": "Gold Plated Necklace",
-        "description": "Elegant necklace with gold plating and gemstone",
-        "price": 2200,
-        "categoryId": 6,
-        "url": "https://picsum.photos/id/130",
-        "status": "available",
-        "quantity": 10,
-        "isAuction": true
-      },
-      {
-        "id": "32",
-        "title": "Leather Strap Watch",
-        "description": "Classic analog watch with brown leather strap",
-        "price": 3200,
-        "categoryId": 6,
-        "url": "https://picsum.photos/id/131",
-        "status": "available",
-        "quantity": 8,
-        "isAuction": true
-      },
-      {
-        "id": "33",
-        "title": "Pearl Earrings",
-        "description": "Elegant pearl stud earrings",
-        "price": 1500,
-        "categoryId": 6,
-        "url": "https://picsum.photos/id/132",
-        "status": "available",
-        "quantity": 18,
-        "isAuction": false
-      },
-      {
-        "id": "34",
-        "title": "Diamond Ring",
-        "description": "Exquisite diamond ring with platinum setting",
-        "price": 5000,
-        "categoryId": 6,
-        "url": "https://picsum.photos/id/133",
-        "status": "available",
-        "quantity": 4,
-        "isAuction": true
-      },
-      {
-        "id": "35",
-        "title": "Bracelet Set",
-        "description": "Set of 3 mixed-material fashion bracelets",
-        "price": 800,
-        "categoryId": 6,
-        "url": "https://picsum.photos/id/134",
-        "status": "available",
-        "quantity": 22,
-        "isAuction": false
-      },
-      {
-        "id": "36",
-        "title": "Digital Sport Watch",
-        "description": "Multifunction digital watch for active users",
-        "price": 1800,
-        "categoryId": 6,
-        "url": "https://picsum.photos/id/135",
-        "status": "available",
-        "quantity": 16,
-        "isAuction": false
-      }
+    {
+      "id": "1",
+      "title": "Slim Fit Denim Jacket",
+      "description": "Classic blue denim jacket for men, slim fit design",
+      "price": 1200,
+      "categoryId": 1,
+      "url": "/images/products/cate1/denim_jacket.jpg",
+      "status": "available",
+      "quantity": 21,
+      "isAuction": false
+    },
+    {
+      "id": "2",
+      "title": "Formal Leather Shoes",
+      "description": "Elegant black leather shoes perfect for business attire",
+      "price": 2000,
+      "categoryId": 1,
+      "url": "/images/products/cate1/formal_leather_shoes.jpg",
+      "status": "available",
+      "quantity": 16,
+      "isAuction": false
+    },
+    {
+      "id": "3",
+      "title": "Graphic T-Shirt",
+      "description": "Cotton T-shirt with bold graphic print",
+      "price": 400,
+      "categoryId": 1,
+      "url": "/images/products/cate1/graphic_tshirt.jpg",
+      "status": "available",
+      "quantity": 51,
+      "isAuction": true
+    },
+    {
+      "id": "4",
+      "title": "Men's Casual Blazer",
+      "description": "Smart casual blazer for versatile use",
+      "price": 1800,
+      "categoryId": 1,
+      "url": "/images/products/cate1/mens_casual_blazer.jpg",
+      "status": "available",
+      "quantity": 10,
+      "isAuction": true
+    },
+    {
+      "id": "5",
+      "title": "Chino Pants",
+      "description": "Comfortable slim-fit chinos for men",
+      "price": 950,
+      "categoryId": 1,
+      "url": "/images/products/cate1/chino_pants.jpg",
+      "status": "available",
+      "quantity": 25,
+      "isAuction": false
+    },
+    {
+      "id": "6",
+      "title": "Wool Scarf",
+      "description": "Soft wool scarf in neutral tones",
+      "price": 300,
+      "categoryId": 1,
+      "url": "/images/products/cate1/wool_scarf.jpg",
+      "status": "available",
+      "quantity": 40,
+      "isAuction": false
+    },
+    {
+      "id": "7",
+      "title": "Floral Summer Dress",
+      "description": "Lightweight dress perfect for summer days",
+      "price": 950,
+      "categoryId": 2,
+      "url": "https://picsum.photos/id/107",
+      "status": "available",
+      "quantity": 29,
+      "isAuction": false
+    },
+    {
+      "id": "8",
+      "title": "Leather Handbag",
+      "description": "Stylish handbag made from genuine leather",
+      "price": 2700,
+      "categoryId": 2,
+      "url": "https://picsum.photos/id/108",
+      "status": "available",
+      "quantity": 12,
+      "isAuction": true
+    },
+    {
+      "id": "9",
+      "title": "High Waist Jeans",
+      "description": "Comfortable and stylish high-waist jeans",
+      "price": 1300,
+      "categoryId": 2,
+      "url": "https://picsum.photos/id/109",
+      "status": "available",
+      "quantity": 20,
+      "isAuction": false
+    },
+    {
+      "id": "10",
+      "title": "Evening Gown",
+      "description": "Elegant long evening gown with sequin details",
+      "price": 3800,
+      "categoryId": 2,
+      "url": "https://picsum.photos/id/110",
+      "status": "available",
+      "quantity": 5,
+      "isAuction": true
+    },
+    {
+      "id": "11",
+      "title": "Silk Blouse",
+      "description": "Premium silk blouse in pastel colors",
+      "price": 1500,
+      "categoryId": 2,
+      "url": "https://picsum.photos/id/111",
+      "status": "available",
+      "quantity": 18,
+      "isAuction": false
+    },
+    {
+      "id": "12",
+      "title": "Women's Knit Sweater",
+      "description": "Warm and cozy knit sweater for winter",
+      "price": 1000,
+      "categoryId": 2,
+      "url": "https://picsum.photos/id/112",
+      "status": "available",
+      "quantity": 25,
+      "isAuction": false
+    },
+    {
+      "id": "13",
+      "title": "Baby Romper",
+      "description": "Soft cotton romper for babies with cute prints",
+      "price": 350,
+      "categoryId": 3,
+      "url": "https://picsum.photos/id/113",
+      "status": "available",
+      "quantity": 40,
+      "isAuction": false
+    },
+    {
+      "id": "14",
+      "title": "Children's Hoodie",
+      "description": "Colorful hoodie for kids with cartoon characters",
+      "price": 700,
+      "categoryId": 3,
+      "url": "https://picsum.photos/id/114",
+      "status": "available",
+      "quantity": 30,
+      "isAuction": false
+    },
+    {
+      "id": "15",
+      "title": "Girl's Party Dress",
+      "description": "Cute party dress with lace and ribbons",
+      "price": 1100,
+      "categoryId": 3,
+      "url": "https://picsum.photos/id/115",
+      "status": "available",
+      "quantity": 15,
+      "isAuction": true
+    },
+    {
+      "id": "16",
+      "title": "Boy's Cargo Shorts",
+      "description": "Durable and comfortable cargo shorts",
+      "price": 600,
+      "categoryId": 3,
+      "url": "https://picsum.photos/id/116",
+      "status": "available",
+      "quantity": 22,
+      "isAuction": false
+    },
+    {
+      "id": "17",
+      "title": "Kids Raincoat",
+      "description": "Waterproof raincoat in bright colors",
+      "price": 950,
+      "categoryId": 3,
+      "url": "https://picsum.photos/id/117",
+      "status": "available",
+      "quantity": 20,
+      "isAuction": false
+    },
+    {
+      "id": "18",
+      "title": "Children's Pajamas Set",
+      "description": "Comfortable sleepwear set for kids",
+      "price": 500,
+      "categoryId": 3,
+      "url": "https://picsum.photos/id/118",
+      "status": "available",
+      "quantity": 35,
+      "isAuction": false
+    },
+    {
+      "id": "19",
+      "title": "Brown Leather Bag",
+      "description": "Handcrafted genuine leather bag with premium stitching and multiple compartments",
+      "price": 2500,
+      "categoryId": 4,
+      "url": "https://picsum.photos/id/7",
+      "status": "available",
+      "quantity": 30,
+      "isAuction": true
+    },
+    {
+      "id": "20",
+      "title": "Canvas Backpack",
+      "description": "Casual canvas backpack with laptop compartment",
+      "price": 1400,
+      "categoryId": 4,
+      "url": "https://picsum.photos/id/119",
+      "status": "available",
+      "quantity": 25,
+      "isAuction": false
+    },
+    {
+      "id": "21",
+      "title": "Slim Wallet",
+      "description": "Compact wallet with RFID protection",
+      "price": 600,
+      "categoryId": 4,
+      "url": "https://picsum.photos/id/120",
+      "status": "available",
+      "quantity": 40,
+      "isAuction": false
+    },
+    {
+      "id": "22",
+      "title": "Belt with Silver Buckle",
+      "description": "Stylish leather belt for everyday use",
+      "price": 500,
+      "categoryId": 4,
+      "url": "https://picsum.photos/id/121",
+      "status": "available",
+      "quantity": 30,
+      "isAuction": false
+    },
+    {
+      "id": "23",
+      "title": "Travel Duffel Bag",
+      "description": "Spacious duffel bag for weekend trips",
+      "price": 2100,
+      "categoryId": 4,
+      "url": "https://picsum.photos/id/122",
+      "status": "available",
+      "quantity": 10,
+      "isAuction": true
+    },
+    {
+      "id": "24",
+      "title": "Mini Crossbody Bag",
+      "description": "Compact crossbody bag for daily essentials",
+      "price": 850,
+      "categoryId": 4,
+      "url": "https://picsum.photos/id/123",
+      "status": "available",
+      "quantity": 20,
+      "isAuction": false
+    },
+    {
+      "id": "25",
+      "title": "Running Shoes",
+      "description": "Lightweight and breathable running shoes",
+      "price": 1800,
+      "categoryId": 5,
+      "url": "https://picsum.photos/id/124",
+      "status": "available",
+      "quantity": 35,
+      "isAuction": false
+    },
+    {
+      "id": "26",
+      "title": "Leather Boots",
+      "description": "Durable leather boots for rugged use",
+      "price": 2700,
+      "categoryId": 5,
+      "url": "https://picsum.photos/id/125",
+      "status": "available",
+      "quantity": 12,
+      "isAuction": true
+    },
+    {
+      "id": "27",
+      "title": "Flip Flops",
+      "description": "Simple and comfortable beach flip flops",
+      "price": 300,
+      "categoryId": 5,
+      "url": "https://picsum.photos/id/126",
+      "status": "available",
+      "quantity": 50,
+      "isAuction": false
+    },
+    {
+      "id": "28",
+      "title": "Women's Heels",
+      "description": "Elegant high heels for formal events",
+      "price": 1600,
+      "categoryId": 5,
+      "url": "https://picsum.photos/id/127",
+      "status": "available",
+      "quantity": 15,
+      "isAuction": true
+    },
+    {
+      "id": "29",
+      "title": "Children's Sneakers",
+      "description": "Colorful sneakers for kids",
+      "price": 900,
+      "categoryId": 5,
+      "url": "https://picsum.photos/id/128",
+      "status": "available",
+      "quantity": 25,
+      "isAuction": false
+    },
+    {
+      "id": "30",
+      "title": "Slip-on Loafers",
+      "description": "Comfortable slip-on shoes for everyday wear",
+      "price": 1200,
+      "categoryId": 5,
+      "url": "https://picsum.photos/id/129",
+      "status": "available",
+      "quantity": 20,
+      "isAuction": false
+    },
+    {
+      "id": "31",
+      "title": "Gold Plated Necklace",
+      "description": "Elegant necklace with gold plating and gemstone",
+      "price": 2200,
+      "categoryId": 6,
+      "url": "https://picsum.photos/id/130",
+      "status": "available",
+      "quantity": 10,
+      "isAuction": true
+    },
+    {
+      "id": "32",
+      "title": "Leather Strap Watch",
+      "description": "Classic analog watch with brown leather strap",
+      "price": 3200,
+      "categoryId": 6,
+      "url": "https://picsum.photos/id/131",
+      "status": "available",
+      "quantity": 8,
+      "isAuction": true
+    },
+    {
+      "id": "33",
+      "title": "Pearl Earrings",
+      "description": "Elegant pearl stud earrings",
+      "price": 1500,
+      "categoryId": 6,
+      "url": "https://picsum.photos/id/132",
+      "status": "available",
+      "quantity": 18,
+      "isAuction": false
+    },
+    {
+      "id": "34",
+      "title": "Diamond Ring",
+      "description": "Exquisite diamond ring with platinum setting",
+      "price": 5000,
+      "categoryId": 6,
+      "url": "https://picsum.photos/id/133",
+      "status": "available",
+      "quantity": 4,
+      "isAuction": true
+    },
+    {
+      "id": "35",
+      "title": "Bracelet Set",
+      "description": "Set of 3 mixed-material fashion bracelets",
+      "price": 800,
+      "categoryId": 6,
+      "url": "https://picsum.photos/id/134",
+      "status": "available",
+      "quantity": 22,
+      "isAuction": false
+    },
+    {
+      "id": "36",
+      "title": "Digital Sport Watch",
+      "description": "Multifunction digital watch for active users",
+      "price": 1800,
+      "categoryId": 6,
+      "url": "https://picsum.photos/id/135",
+      "status": "available",
+      "quantity": 16,
+      "isAuction": false
+    }
   ],
   "shoppingCart": [],
   "paymentMethods": [
@@ -2903,6 +2929,22 @@
       "shippingFee": 550,
       "status": "processing",
       "createdAt": "2025-04-26T23:54:25.792Z"
+    },
+    {
+      "id": "8117",
+      "shipmentCode": "SHIP888341",
+      "userId": "1",
+      "orderId": "ORD147",
+      "address": {
+        "fullName": "John Smiths",
+        "street": "123 Main St",
+        "city": "New York",
+        "country": "United States",
+        "zipcode": "12345"
+      },
+      "shippingFee": 550,
+      "status": "pending",
+      "createdAt": "2025-07-12T13:29:27.681Z"
     }
   ],
   "similarItems": [
